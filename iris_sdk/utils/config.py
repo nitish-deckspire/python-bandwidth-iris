@@ -8,8 +8,9 @@ from iris_sdk.utils.py_compat import PY_VER_MAJOR
 
 if PY_VER_MAJOR < 3:
     from io import open
-
-from configparser import ConfigParser
+    from ConfigParser import ConfigParser
+else:
+    from configparser import ConfigParser
 
 MAX_FILE_SIZE = 1048576
 SECTION_ACCOUNT = "account"
