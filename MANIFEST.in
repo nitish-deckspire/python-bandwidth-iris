@@ -1,7 +1,6 @@
 include requirements.txt
 include setup.py
 include setup.cfg
-include version.py
-include __init__.py
 
 recursive-include iris_sdk *
+global-exclude *.pyc

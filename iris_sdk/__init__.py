@@ -1,3 +1,5 @@
+__version__ = 0.1
+
 from iris_sdk.client import Client
 from iris_sdk.models.account import Account
 from iris_sdk.models.cities import Cities
